@@ -1,0 +1,23 @@
+{
+  "name": "template-bot",
+  "description": "Template for telegram bot",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RhumRoot/template-bot"
+  },
+  "author": "RhumRoot",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "dependencies": {
+    "express": "4.16.2",
+    "flow-manager": "^0.1.0",
+    "mongoose": "^4.11.0",
+    "axios": "0.18.0",
+    "telegraf": "^3.20.0"
+  }
+}
